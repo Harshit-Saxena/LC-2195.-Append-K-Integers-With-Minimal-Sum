@@ -1,7 +1,10 @@
 
   /* @param {number[]} nums
   @param {number} k
-  @return { number } */
+  @return { number } 
+  
+  Explanation is still remaing!!
+  */
 
 const minimalKSum = (nums, k) => {
     const set = new Set();
@@ -22,3 +25,4 @@ const minimalKSum = (nums, k) => {
     console.log(sum, sum.toString());
     return sum;
 };
+
